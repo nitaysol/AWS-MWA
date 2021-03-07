@@ -8,7 +8,7 @@ Running the program:
 When: 
 inputFileName = input(please add extension if needed - such as .txt
 outputFileName = output file name(no extension
-n = a number you choose, 
+n = number of workers you want
 terminate = terminate(optional) - if you would like this local application to be the last one and terminate the manager's process then run with terminat.
 
 Example:
