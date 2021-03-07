@@ -7,7 +7,7 @@ import software.amazon.awssdk.auth.credentials.StaticCredentialsProvider;
 public class Consts {
     public static AwsCredentialsProvider credentials() {
         return StaticCredentialsProvider.create(AwsBasicCredentials
-    .create("AKIAJYUFUZVWONLFJFMQ", "KYuZ85GfIjfO3hjnA/ws40Jo5sluLlRinTwlJKXE"));}
+    .create("your_creds", "your_creds"));}
 
     public static String getS3ObjectUrl(String appID, String fileName)
     {

@@ -2,14 +2,15 @@
 Running the program:
 1. extract the zip file.
 2. go the to folder location via cd.
+3. update your aws creds ("your_creds") in the constants class (there is much secured way with ssh keys to do so, i would advise checking it out)
 3. in shell run "cd out/artifacts"
 4. in shell run "java -jar LocalApp.jar <inputFileName> <outputFileName> n <optional: terminate>
 
 When: 
-inputFileName = input(please add extension if needed - such as .txt
-outputFileName = output file name(no extension
+inputFileName = input(please add extension if needed - such as .txt) - a list of pdfs links
+outputFileName = output file name(no extension) -> the output(the downloaded pdfs)
 n = number of workers you want
-terminate = terminate(optional) - if you would like this local application to be the last one and terminate the manager's process then run with terminat.
+terminate = terminate(optional) - if you would like this local application to be the last one and terminate the manager's process then run with terminate.
 
 Example:
 without terminate: java -jar LocalApp.jar input1.txt output1 100
