@@ -83,7 +83,10 @@ for more detailed explanation of the mechanism check the Running description lab
 	the manager does those tasks using different tasks that are being run by threads in order to prevent unneeded stalls.
 	10. distributed - Ofc the manager must wait for messages in order to do something but we made out greatest effort the each part of the system wont cause delay.
 
-### Outputs:
+### Timing:
 1st input file: n = 100 => 3 minutes.
 2nd input file: n = 100 => 15 seconds. 
 Initialize new manager (If does not exist) => 77 seconds.
+
+### Output:
+output file is saved in s3 bucket under results
