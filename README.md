@@ -1,12 +1,13 @@
 # General information:
-The application is composed of a local application and Manager & Worker instances running on the Amazon cloud. 
+The application is composed of a local application, Manager & Worker instances running on the Amazon cloud. 
 The application gets as an input a txt file that contains a list of pdf URLS + action.
 ## Action list:
 1. ToImage
 2. ToHTML
 3. ToText
 
-for more detailed explanation of the mechanism check the Running description label
+for more detailed explanation of the mechanism check the Running description label or the input/output
+which can be found under the project main folder
 
 ### Running the program:
 1. extract the zip file.
